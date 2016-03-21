@@ -1,5 +1,6 @@
 {
   "apps": [
-
+	"serverURL": "stoooc-test.herokuapp.com",
+    "appId": "myAppId"
   ]
 }
