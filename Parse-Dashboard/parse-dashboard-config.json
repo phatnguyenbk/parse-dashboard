@@ -18,5 +18,11 @@
       "masterKey": "taxiMasterKey",
       "appName": "taxi"
     }
+  ],
+  "users":[
+    {
+    	"user": "cool",
+    	"pass": "cool"
+    }
   ]
 }
