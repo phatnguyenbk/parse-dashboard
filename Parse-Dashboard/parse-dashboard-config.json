@@ -1,6 +1,22 @@
 {
-  "apps": [
-	"serverURL": "stoooc-test.herokuapp.com",
-    "appId": "myAppId"
+  "apps":  [
+    {
+      "serverURL": "http://stoooc-test.herokuapp.com/parse",
+      "appId": "myAppId",
+      "masterKey": "stooocTestMasterKey",
+      "appName": "stoooc-test"
+    },
+    {
+      "serverURL": "http://prawfarm.herokuapp.com/parse",
+      "appId": "prawfarmAppId",
+      "masterKey": "prawfarmMasterKey",
+      "appName": "prawfarm"
+    },
+    {
+      "serverURL": "http://parseserver-3r2mf-env.us-east-1.elasticbeanstalk.com/parse",
+      "appId": "taxiAppID",
+      "masterKey": "taxiMasterKey",
+      "appName": "taxi"
+    }
   ]
 }
